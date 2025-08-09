@@ -45,3 +45,24 @@ class Agent:
             prediction = self.model(state0)
             move = torch.argmax(prediction).item()
         return move
+
+def train():
+    agent = Agent()
+    game = Game2024()
+
+    while True:
+        state_old = agent.get_state(game)
+        action = agent.get_action(state_old)
+        next_state, reward, done, score= game.step(action)
+
+        agent.train_short_memory(state_old, action, reward, next_state, done)
+        agent.remember(state_old, action, reward, next_state, done)
+
+        if done:
+            game.reset()
+            agent.n_games += 1
+            agent.train_long_memory()
+            print(f'Game {agent.n_games} Score: {score}')
+
+if __name__ == '__main__':
+    train()
