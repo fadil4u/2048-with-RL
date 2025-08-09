@@ -56,7 +56,8 @@ For Software:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+<video src="https://raw.githubusercontent.com/fadil4u/project1/video/recording.mp4" controls width="600"></video>
+
 *Explain what the video demonstrates*
 
 ## Team Contributions
