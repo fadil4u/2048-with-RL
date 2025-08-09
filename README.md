@@ -9,23 +9,21 @@
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Fadil Rahman - CUSAT DCS
 
 ### Project Description
-[2-3 lines about what your project does]
+My project is the famous 2048 tile game but the twist is that we don't get to play it. A model through reinforcement learning without knowing the rules, learns to play the game and get progressively better. 
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Problem is the 2048 game is very hard (for me) and i don't wanna play it
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+Since i dont wanna play the game i let an agent play the game on its own figure out the rules and get better score each time it plays
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- [Python]
 - [Frameworks used]
 - [Libraries used]
 - [Tools used]
