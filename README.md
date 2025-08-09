@@ -24,71 +24,44 @@ Since i dont wanna play the game i let an agent play the game on its own figure 
 ### Technologies/Components Used
 For Software:
 - [Python]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- [PyTorch]
+- [PyGame,random,collection,NumPy]
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
-
-### Implementation
-For Software:
 # Installation
-[commands]
+Install the required packages by running:
+
+```bash
+pip install -r requirements.txt
+```
 
 # Run
-[commands]
+
+Run agent
+```bash
+python agent.py
+```
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![Gameplay Screenshot 1](images/screenshot%201.png)
+*Gameplay by agent*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Gameplay screenshot 2](images/screenshot%202.png)
+*Agent tries to get better game by game*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
+![Gameplay Screenshot 3](images/screenshot3.png)
+*Gameplay*
 
 ### Project Demo
 # Video
 [Add your demo video link here]
 *Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
-
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Fadil: Solo so i did everything
+
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
