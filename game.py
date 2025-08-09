@@ -124,3 +124,49 @@ def draw_board(board, score):
                 txt = font.render(str(val), True, text_color)
                 txt_rect = txt.get_rect(center=rect.center)
                 screen.blit(txt, txt_rect)
+
+class Game2024:
+    def __init__(self):
+        self.reset()
+
+    def reset(self):
+        self.board = new_board()
+        self.score = 0
+        self.game_over = False
+        return self.get_state()
+
+    def get_state(self):
+        
+        state = [0 if x==0 else np.log2(x) for row in self.board for x in row]
+        return np.array(state, dtype=np.float32)
+
+    def step(self, action):
+        moved = False
+        reward = 0
+
+        if not self.game_over:
+            if action == 0:
+                self.board, moved, s = move_left(self.board)
+            elif action == 1:
+                self.board, moved, s = move_right(self.board)
+            elif action == 2:
+                self.board, moved, s = move_up(self.board)
+            elif action == 3:
+                self.board, moved, s = move_down(self.board)
+            reward += s
+            self.score += s
+
+            if moved:
+                add_random_tile(self.board)
+                if not can_move(self.board):
+                    self.game_over = True
+
+        
+        pygame.event.pump()
+
+
+        draw_board(self.board, self.score)
+        pygame.display.update()
+        pygame.time.delay(80)
+
+        return self.get_state(), reward, self.game_over, self.score
