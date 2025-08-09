@@ -44,7 +44,7 @@ python agent.py
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
+# Screenshots
 ![Gameplay Screenshot 1](images/screenshot%201.png)
 *Gameplay by agent*
 
