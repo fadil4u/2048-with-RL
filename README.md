@@ -56,9 +56,8 @@ For Software:
 
 ### Project Demo
 # Video
-<video src="https://raw.githubusercontent.com/fadil4u/project1/video/recording.mp4" controls width="600"></video>
+[![Demo Video](images/screenshot3.png)](https://github.com/fadil4u/project1/raw/main/video/recording.mp4)
 
-*Explain what the video demonstrates*
 
 ## Team Contributions
 - Fadil: Solo so i did everything
