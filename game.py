@@ -2,14 +2,14 @@ import pygame, sys, random
 from pygame.locals import *
 import numpy as np
 
-# Config
+
 GRID_SIZE = 4
 TILE_SIZE = 110
 PADDING = 10
 WIDTH = GRID_SIZE * TILE_SIZE + (GRID_SIZE + 1) * PADDING
 HEIGHT = WIDTH + 100
 FPS = 60
-FONT_NAME = None  # default
+FONT_NAME = None 
 
 # Colors
 BG_COLOR = (187, 173, 160)
