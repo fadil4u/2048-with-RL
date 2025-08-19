@@ -1,24 +1,10 @@
-<img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# 2048 with RL 🎯
 
-
-## Basic Details
-### Team Name: TIC TAC
-
-
-### Team Members
-- Team Lead: Fadil Rahman - CUSAT DCS
+# 2048 with Reinforcement Learning 🎯
 
 ### Project Description
-My project is the famous 2048 tile game but the twist is that we don't get to play it. A model through reinforcement learning without knowing the rules, learns to play the game and get progressively better. 
-
-### The Problem (that doesn't exist)
-Problem is the 2048 game is very hard (for me) and i don't wanna play it
-
-### The Solution (that nobody asked for)
-Since i dont wanna play the game i let an agent play the game on its own figure out the rules and get better score each time it plays
+The famous 2048 tile game but you don't get to play it. A model through reinforcement learning without knowing the rules, learns to play the game and gets progressively better. 
 
 ## Technical Details
 ### Technologies/Components Used
@@ -41,9 +27,6 @@ Run agent
 python agent.py
 ```
 
-### Project Documentation
-For Software:
-
 # Screenshots
 ![Gameplay Screenshot 1](images/screenshot%201.png)
 *Gameplay by agent*
@@ -57,14 +40,8 @@ For Software:
 ### Project Demo
 # Video
 [![Demo Video](images/screenshot3.png)](https://github.com/fadil4u/project1/raw/main/video/recording.mp4)
-
-
-## Team Contributions
-- Fadil: Solo so i did everything
-
-
 ---
-Made with ❤️ at TinkerHub Useless Projects 
+
 
 ![Static Badge](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org%2F)
 ![Static Badge](https://img.shields.io/badge/UselessProjects--25-25?link=https%3A%2F%2Fwww.tinkerhub.org%2Fevents%2FQ2Q1TQKX6Q%2FUseless%2520Projects)
